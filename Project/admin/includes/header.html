@@ -1,0 +1,68 @@
+<html>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Antic Didone' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
+
+    <style>
+        .header{
+            background-color:#5025A2;
+            height: 100px;
+            top:-5px;
+            left:-5px;
+            right:-5px;
+            position:fixed;
+            z-index: 1000;
+            
+
+        }
+        .logo{
+            justify-content: center;
+            color:white;
+            font-family:"Antic Didone";
+            font-size: 48px;
+            margin-top: 10px;
+        }
+        .left{
+            display:inline-flex;
+            margin-left:30px;
+            margin-top:10px;
+        }
+        .right{
+            display: inline-block;
+            margin-left: 900px;
+        }
+        .register{
+            font-family:"Noto Sans";
+            font-size: 20px;
+            color: white;
+            margin-left: 141px;
+
+        }
+        .login{
+            margin-left: 35px;
+            background-color:white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 32px;
+            padding-right: 32px;
+            font-family:"Noto Sans";
+            font-size: 20px;
+            color:#5025A2;
+            font-weight: bold;
+
+        }
+    </style>
+</head>
+<body>
+    <div class = 'header'>
+        <div class = 'left'>
+            <a  class="logo"  style="text-decoration:none">SASA</a>
+        </div>
+        <div class = 'right'>
+            <a href = 'register.php' class="register" style="text-decoration:none">Register</a>
+            <a href = 'login.php' class = 'login' style="text-decoration:none" >LOGIN</a>
+        </div>
+
+    </div>
+</body>
+</html>
